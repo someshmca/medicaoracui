@@ -1,0 +1,32 @@
+
+
+.member-search-btns-area{
+    padding: 0;
+    margin: 5px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.member-search-btns-area .btn{
+    margin-left: 15px;
+}
+.no-grid-results{
+    padding: 30px 15px;
+}
+.no-grid-results h3{
+    text-align: center;
+    color: #ff0000;
+    font-size: 1.4rem;
+}
+.members-table-area{
+    margin-top: 35px;
+}
+.mandate-fields{
+    padding-left: 20px;
+}
+.member-form-wrap{
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 9px 0;
+    height: 65vh;
+    max-height: 650px;
+}
