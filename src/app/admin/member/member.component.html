@@ -323,6 +323,7 @@
                      <div class="form-group">
                         <label>Gender<small class="starmark">*</small></label>  
                         <select class="form-control" formControlName="gender" [ngClass]="{ 'is-invalid': submitted && f.gender.errors }">
+                          <option value=''>Select Gender</option>
                           <option value="M">Male</option>
                           <option value="F">Female</option>
                         </select>
